@@ -33,7 +33,7 @@ body:
     attributes:
       label: location
       description: What is the location of the issue?
-      placeholder: eg. line in markdown file (`repo url`/docs/`file name`.md?plain=1#L`line number`)
+      placeholder: eg. line in markdown file (repo_url/docs/file_name.md?plain=1#Lnumber)
     validations:
       required: false
   - type: textarea
