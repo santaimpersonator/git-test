@@ -5,9 +5,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        * Before reporting a documentation issue, please check and search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+).
-        * If you reference a datasheet please specify which one and which section the information is in (i.e. the protocol manual, section 5.1.2).
-        * Additionally, screenshots are extremely helpful and easy to copy/paste into GitHub.
+        * Before reporting a new issue please check and search in [List of existing issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+) 
+        * Please check [Online Hookup guide](https://sparkfun.github.io/git-test)
+        * Take a look at the [troubleshooting tips](https://sparkfun.github.io/git-test/troubleshooting_tips/)
+        * If still experiencing the issue, please provide as many details as possible below about your hardware, computer setup, and code.
   - type: dropdown
     id: Issue Type
     attributes:
