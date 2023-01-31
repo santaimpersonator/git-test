@@ -1,4 +1,4 @@
-name: Issue report
+name: Issue report - yml
 description: Report any problem here
 labels: ["Status: Awaiting triage"]
 body:

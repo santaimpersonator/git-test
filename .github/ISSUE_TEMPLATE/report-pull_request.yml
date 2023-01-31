@@ -1,4 +1,4 @@
-name: Feature Request
+name: Pull Request
 description: Suggest an idea for this project
 labels: ["Status: Awaiting triage", "enhancement"]
 body:
