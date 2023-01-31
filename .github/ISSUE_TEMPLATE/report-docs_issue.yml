@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before reporting a documentation issue, *please check and search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+)*.
+        Before reporting a documentation issue, please check and search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+).
         If you reference a datasheet please specify which one and which section the information is in (i.e. the protocol manual, section 5.1.2).
         Additionally, screenshots are extremely helpful and easy to copy/paste into GitHub.
   - type: dropdown
