@@ -51,28 +51,3 @@ body:
       options:
         - label: I confirm I have checked existing issues, online documentation, and the Troubleshooting guide.
           required: true
-
-
-
-  - type: textarea
-    id: other-hw
-    attributes:
-      label: Hardware Configuration
-      description: Is anything else attached to the development board?
-      placeholder: ex. GPIO 18 & 19 are connected to I2C devices.
-    validations:
-      required: true
-  - type: dropdown
-    id: PSRAM 
-    attributes:
-      label: PSRAM enabled
-      description: Is PSRAM enabled?
-      options:
-        - 'yes'
-        - 'no' 
-    validations:
-      required: true
-
-
-
-
