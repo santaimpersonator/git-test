@@ -25,7 +25,7 @@ body:
     attributes:
       label: error
       description: What is the exact problem?
-      placeholder: eg. broken hyperlink _(example.com)_
+      placeholder: eg. broken hyperlink (example.com)
     validations:
       required: false
   - type: input
