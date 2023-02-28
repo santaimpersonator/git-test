@@ -5,11 +5,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        * Before reporting a documentation issue, *please check and search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+)*.
-        * Provide a concise title (eg. **Typo in Hawdrware Overview section**)
-        * Screenshots are extremely helpful and easy to copy/paste into GitHub.
-          ![Example of pasting in a screenshot]()
-        * If you reference information from a datasheet, please specify or link the datasheet and provide the section that the information is in (eg. the protocol manual, section 5.1.2).
+        Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product.
+        * For some common troubleshooting tips, please head over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page.
+        * For questions about a product that is not working as expected, please post a topic in the [SparkFun Forums](https://forum.sparkfun.com/index.php).
+
+        Before reporting a documentation issue, please search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+)* to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form: 
+        * Provide a concise title summarizing the problem (eg. **Typo in Hawdrware Overview section**)
+        * Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
+          * Select Files
+            ![Select attachments from computer](https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp)
+          * Drag and Drop
+            ![Attachments animated GIF](https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif)
+        * For information referenced from a datasheet:
+          * Specify, link, or attach the datasheet.
+          * Provide the section that the information is in (eg. section 5.1.2) or quote the information exactly
   - type: dropdown
     id: issue_type
     attributes:
@@ -26,7 +35,7 @@ body:
     id: error
     attributes:
       label: Error
-      description: What is the exact problem?
+      description: State the exact problem
       placeholder: eg. broken hyperlink (example.com)
     validations:
       required: false
