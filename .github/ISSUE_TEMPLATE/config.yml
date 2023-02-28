@@ -1,3 +1,4 @@
+blank_issues_enabled: false
 contact_links:
   - name: SparkFun - Technical Assistance webpage
     url: https://www.sparkfun.com/technical_assistance
@@ -5,4 +6,3 @@ contact_links:
   - name: SparkFun Forum
     url: https://forum.sparkfun.com/
     about: Forum for SparkFun products - ask questions, find additional product information, etc.
-blank_issues_enabled: false

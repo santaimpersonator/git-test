@@ -1,5 +1,5 @@
 name: Issue report - yml
-description: Report any problem here
+description: Report any problems here
 labels: ["Status: Awaiting triage"]
 body:
   - type: markdown

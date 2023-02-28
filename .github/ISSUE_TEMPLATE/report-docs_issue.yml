@@ -1,5 +1,5 @@
 name: Hookup Guide Issue
-description: Report any problem related to the documentation
+description: Report any problems related to the documentation
 labels: ["Status: Issue Reported", "documentation"]
 body:
   - type: markdown
@@ -9,16 +9,17 @@ body:
         * For some common troubleshooting tips, please head over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page.
         * For questions about a product that is not working as expected, please post a topic in the [SparkFun Forums](https://forum.sparkfun.com/index.php).
 
-        Before reporting a documentation issue, please search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+)* to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form: 
+        Before reporting a documentation issue, please search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form: 
         * Provide a concise title summarizing the problem (eg. **Typo in Hawdrware Overview section**)
         * Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
-          * Select Files
-            ![Select attachments from computer](https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp)
-          * Drag and Drop
+          * Select Files:
+            ![Select attachments from computer](https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp){ width="300" }
+          * Drag and Drop Files:
             ![Attachments animated GIF](https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif)
-        * For information referenced from a datasheet:
+        * When referencing information from a datasheet:
           * Specify, link, or attach the datasheet.
           * Provide the section that the information is in (eg. section 5.1.2) or quote the information exactly
+        
   - type: dropdown
     id: issue_type
     attributes:
@@ -39,12 +40,14 @@ body:
       placeholder: eg. broken hyperlink (example.com)
     validations:
       required: false
-  - type: input
+  - type: textarea
     id: location
     attributes:
       label: Location
       description: What is the location of the issue?
-      placeholder: eg. line in markdown file (<repo url>/docs/<file name>.md?plain=1#L<line number>)
+      placeholder: |
+        Link the line in markdown file (<repo url>/docs/<file name>.md?plain=1#L<line number>)
+        Add a screenshot (see instructions at the top) 
     validations:
       required: false
   - type: textarea
