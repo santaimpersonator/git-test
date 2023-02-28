@@ -6,48 +6,50 @@ body:
     attributes:
       value: |
         * Before reporting a documentation issue, *please check and search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+)*.
-        * If you reference a datasheet please specify which one and which section the information is in (i.e. the protocol manual, section 5.1.2).
-        * Additionally, screenshots are extremely helpful and easy to copy/paste into GitHub.
+        * Provide a concise title (eg. **Typo in Hawdrware Overview section**)
+        * Screenshots are extremely helpful and easy to copy/paste into GitHub.
+          ![Example of pasting in a screenshot]()
+        * If you reference information from a datasheet, please specify or link the datasheet and provide the section that the information is in (eg. the protocol manual, section 5.1.2).
   - type: dropdown
-    id: Issue_Type
+    id: issue_type
     attributes:
-      label: problem
+      label: Problem
       description: What type of problem have you found?
       options:
-        - Spelling Typo or Grammar
-        - Broken Link
+        - Typo - Spelling or Grammatical
+        - Broken Hyperlink
         - Incorrect Information
-        - other
+        - Other
     validations:
       required: true
   - type: input
-    id: Error
+    id: error
     attributes:
-      label: error
+      label: Error
       description: What is the exact problem?
       placeholder: eg. broken hyperlink (example.com)
     validations:
       required: false
   - type: input
-    id: Location
+    id: location
     attributes:
-      label: location
+      label: Location
       description: What is the location of the issue?
       placeholder: eg. line in markdown file (<repo url>/docs/<file name>.md?plain=1#L<line number>)
     validations:
       required: false
   - type: textarea
-    id: Suggested_Correction
+    id: correction
     attributes:
-      label: error-correction
-      description: How should this be corrected
+      label: Suggested Correction
+      description: How could this problem be corrected?
     validations:
       required: true
   - type: checkboxes
     id: confirmation
     attributes:
-      label: I have checked existing issues, online documentation, and the Troubleshooting Guide
+      label: I have checked existing issues, online documentation, and the troubleshooting guide
       description: You agree to check all the resources above before opening a new issue.
       options:
-        - label: I confirm I have checked existing issues, online documentation, and the Troubleshooting guide.
+        - label: I confirm I have checked existing issues, online documentation, and the troubleshooting guide.
           required: true
