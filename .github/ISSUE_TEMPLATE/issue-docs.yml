@@ -11,7 +11,7 @@ body:
     id: new_issue
     attributes:
       label: This is a new issue
-      description: All the boxes must be checked to proceed
+      # description: All the boxes must be checked to proceed
       options:
         - label: I am not posting a question or looking for [technical assistance](https://www.sparkfun.com/technical_assistance).
           required: true
@@ -94,7 +94,7 @@ body:
     id: confirmation
     attributes:
       label: I agree to the following terms and conditions
-      description: All the boxes must be checked to proceed
+      # description: All the boxes must be checked to proceed
       options:
         - label: I agree to SparkFun's [terms of service](https://www.sparkfun.com/terms)
           required: true
