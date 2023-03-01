@@ -60,10 +60,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
-          | Drag and Drop | Select to Attach |
-          | :-----------: | :--------------: |
-          | <img alt="Attachments animated GIF" title="Click to enlarge" src="https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif" width="350"> | <img alt="Select attachments from computer" title="Click to enlarge" src="https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp" width="350"> |
+        > Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
+        > | Drag and Drop | Select to Attach |
+        > | :-----------: | :--------------: |
+        > | <img alt="Attachments animated GIF" title="Click to enlarge" src="https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif" width="350"> | <img alt="Select attachments from computer" title="Click to enlarge" src="https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp" width="350"> |
   - type: textarea
     id: correction
     attributes:
