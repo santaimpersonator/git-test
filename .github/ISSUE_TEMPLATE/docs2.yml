@@ -1,0 +1,76 @@
+name: Hookup Guide Issue
+description: Report any problems related to the documentation
+title: "[Docs]: "
+labels: ["Status: Issue Reported", "documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product.
+        * For some common troubleshooting tips, please head over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page.
+        * For questions about a product that is not working as expected, please post a topic in the [SparkFun Forums](https://forum.sparkfun.com/index.php).
+
+        Before reporting a new issue, please search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form: 
+        * Provide a concise title summarizing the problem (eg. **Typo in Hawdware Overview section**)
+        * Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
+          * Select Files:
+            ![Select attachments from computer](https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp)
+          * Drag and Drop Files:
+            ![Attachments animated GIF](https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif)
+        * When referencing information from a datasheet:
+          * Specify, link, or attach the datasheet.
+          * Provide the section that the information is in (eg. section 5.1.2) or quote the information exactly
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Problem
+      description: What type of problem have you found?
+      options:
+        - Typo - Spelling or Grammatical
+        - Broken Hyperlink
+        - Incorrect Information
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: error
+    attributes:
+      label: Error
+      description: State the exact problem
+      placeholder: eg. broken hyperlink (example.com)
+    validations:
+      required: false
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: What is the location of the issue?
+      placeholder: |
+        Link the line in markdown file (<repo url>/docs/<file name>.md?plain=1#L<line number>)
+        Add a screenshot (see instructions at the top) 
+    validations:
+      required: false
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested Correction
+      description: How could this problem be corrected?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Anything else you'd like to add?
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: I have checked existing issues, online documentation, and the troubleshooting guide
+      description: You agree to check all the resources above before opening a new issue.
+      options:
+        - label: No, I am not posting a question for technical assistance.
+          required: true
+        - label: Yes, I have confirmed this is not a duplicate issue.
+          required: true
