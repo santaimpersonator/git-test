@@ -5,14 +5,29 @@ body:
   - type: markdown
     attributes:
       value: |
-        * Before reporting a new issue please check and search in [List of existing issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+) 
-        * Please check [Online Hookup guide](https://sparkfun.github.io/git-test)
-        * Take a look at the [troubleshooting tips](https://sparkfun.github.io/git-test/troubleshooting_tips/)
-        * If still experiencing the issue, please provide as many details as possible below about your hardware, computer setup, and code.
+        Please make sure an issue is being reported here; this is not an appropriate channel for questions or assistance on a product. Here are some simple steps to verify that you haven't missed an instruction, which could solve your issue:
+        * Please double-check the [hookup guide](https://sparkfun.github.io/git-test) and verify that you have completed your setup correctly.
+          * Please test your board with one of the included examples to verify that the board is operating with its basic functionality.
+          * Verify that you are using the latest software development environment and library/package release *(unless specified otherwise)*.
+        * Please take a look at the [troubleshooting tips](https://sparkfun.github.io/git-test/troubleshooting_tips/) for common mistakes you could have overlooked.
+        * For some common troubleshooting tips, please head over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page.
+        * For questions about a product that is not working as expected, please post a topic in the [SparkFun Forums](https://forum.sparkfun.com/index.php).
+        * If you are still experiencing the issue, please provide as many details as possible below about your hardware, computer setup, and code.
+
+        Before reporting a new issue, please search the [list of existing hardware issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Ahardware+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our design, please continue filling out this form: 
+        * Provide a concise title summarizing the problem (eg. **Incorrect silk** or **`<Feature>` not working**)
+        * Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
+          * Select Files:
+            ![Select attachments from computer](https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp)
+          * Drag and Drop Files:
+            ![Attachments animated GIF](https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif)
+        * When referencing information from a datasheet:
+          * Specify, link, or attach the datasheet.
+          * Provide the section that the information is in (eg. section 5.1.2) or quote the information exactly
   - type: input
-    id: Board
+    id: board
     attributes:
-      label: Board
+      label: Dev. Board
       description: On which Board does this issue occur?
       placeholder: eg. ESP32 Dev Module, ESP32-S2, LilyGo TTGO LoRa32...
     validations:
@@ -29,8 +44,8 @@ body:
     id: other-hw
     attributes:
       label: Hardware Configuration
-      description: Is anything else attached to the development board?
-      placeholder: ex. GPIO 18 & 19 are connected to I2C devices.
+      description: Describe your hardware setup
+      placeholder: ex. GPIO 18 & 19 are connected to I2C devices (w/ picture(s) of the setup attached).
     validations:
       required: true
   - type: dropdown
@@ -50,6 +65,14 @@ body:
     validations:
       required: true
   - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: On what OS does this issue occur?
+      placeholder: ex. macOS 12.1, Windows 11...
+    validations:
+      required: true
+  - type: input
     id: IDE
     attributes:
      label: IDE Name
@@ -57,32 +80,14 @@ body:
      placeholder: eg. Arduino IDE, PlatformIO, Sloeber...
     validations:
      required: true
-  - type: input
-    id: os
+    - type: input
+    id: library
     attributes:
-      label: Operating System
-      description: On which OS does this issue occur?
-      placeholder: ex. macOS 12.1, Windows 10...
+     label: Library/Package
+     description: Which library (or package) and version are you using?
+     placeholder: eg. `[SparkFun BMA400 Arduino Library - v1.0.0](https://github.com/sparkfun/SparkFun_BMA400_Arduino_Library/releases/tag/v1.0.0)`
     validations:
-      required: true
-  - type: input
-    id: Flash
-    attributes:
-      label: Flash Frequency
-      description: What flash frequency is used?
-      placeholder: eg. 40Mhz
-    validations:
-      required: true
-  - type: dropdown
-    id: PSRAM 
-    attributes:
-      label: PSRAM enabled
-      description: Is PSRAM enabled?
-      options:
-        - 'yes'
-        - 'no' 
-    validations:
-      required: true
+     required: true
   - type: input
     id: Upload
     attributes:
@@ -126,8 +131,14 @@ body:
   - type: checkboxes
     id: confirmation
     attributes:
-      label: I have checked existing issues, online documentation, and the Troubleshooting Guide
+      label: I have checked existing issues, online documentation, and the troubleshooting guide
       description: You agree to check all the resources above before opening a new issue.
       options:
-        - label: I confirm I have checked existing issues, online documentation, and the Troubleshooting guide.
+        - label: No, I am not posting a question for technical assistance.
+          required: true
+        - label: Yes, I confirm I have checked the existing issues.
+          required: true
+        - label: Yes, I confirm I have checked the online documentation.
+          required: true
+        - label: Yes, I confirm I have checked the troubleshooting guide.
           required: true
