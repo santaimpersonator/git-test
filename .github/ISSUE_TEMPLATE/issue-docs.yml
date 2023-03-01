@@ -52,7 +52,7 @@ body:
       label: Suggested Correction
       description: How could this problem be corrected?
       placeholder: |
-        For any politically incorrect statements, we apologize for our ignorance of the issue 😔😞😨😱. Sometimes these can be tricky for the uninitiated 🤔, so please provide us with a suggestion to improve our wording. Thanks!
+        For any politically incorrect statements, we apologize for our ignorance of the issue 😔😞😨. Sometimes these can be tricky for the uninitiated 🤔, so please provide us with a suggestion to improve our wording. Thanks!
 
         Feel free to skip this section, if the correction is obvious from the information above (eg. Title states: "Misspelled worlds as wosrld")
     validations:
