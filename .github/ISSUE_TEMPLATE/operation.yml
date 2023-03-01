@@ -1,7 +1,7 @@
 name: Issue - Hardware Functionality
 description: Report any problems with the hardware operation
-title: "[HW]: "
-labels: ["Status: Issue Reported", "hardware"]
+title: "HW Operation: "
+labels: ["Status: Issue Reported", "hardware", "operation"]
 body:
   - type: markdown
     attributes:

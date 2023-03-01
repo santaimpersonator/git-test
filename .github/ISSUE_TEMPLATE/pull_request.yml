@@ -1,7 +1,7 @@
 name: Pull Request
 description: Suggest an idea for this project
-title: "[PR]: "
-labels: ["Status: Awaiting triage", "enhancement"]
+title: "Pull Request: "
+labels: ["Status: Awaiting triage", "PR"]
 body:
   - type: markdown
     attributes:

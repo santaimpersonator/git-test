@@ -1,7 +1,7 @@
 name: Issue - Hardware Design
 description: Report any problems with the hardware design
-title: "[HW]: "
-labels: ["Status: Issue Reported", "hardware"]
+title: "Design: "
+labels: ["Status: Issue Reported", "hardware", "design"]
 body:
   - type: markdown
     attributes:

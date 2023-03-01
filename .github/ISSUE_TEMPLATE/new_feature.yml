@@ -1,6 +1,6 @@
 name: Hardware Feature Request
 description: Suggest an idea for this project
-title: "[FR]: "
+title: "Feature Request: "
 labels: ["Status: Awaiting triage", "enhancement"]
 body:
   - type: markdown
