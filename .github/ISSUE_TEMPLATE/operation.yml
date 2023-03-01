@@ -1,5 +1,5 @@
-name: Hardware Issue
-description: Report any problems with the hardware design or operation
+name: Issue - Hardware Functionality
+description: Report any problems with the hardware operation
 title: "[HW]: "
 labels: ["Status: Issue Reported", "hardware"]
 body:
