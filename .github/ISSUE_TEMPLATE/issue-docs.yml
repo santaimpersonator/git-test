@@ -5,8 +5,7 @@ labels: ["Status: Issue Reported", "documentation"]
 body:
   - type: markdown
     attributes:
-      value: |
-      Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**)
+      value: Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**)
   - type: markdown
     attributes:
       value: |
