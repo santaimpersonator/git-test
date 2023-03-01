@@ -9,7 +9,7 @@ body:
         Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product. Good examples of issues that should be submitted here are broken links, typos, or outdated information.
 
         Before reporting a new issue, please search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form: 
-        - Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section*- or **Misspelled worlds as wosrld**)
+        - Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**)
         - Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
           | Drag and Drop | Select to Attach |
           | :-----------: | :--------------: |
@@ -74,10 +74,14 @@ body:
   - type: checkboxes
     id: confirmation
     attributes:
-      label: I have checked existing issues, online documentation, and the troubleshooting guide
+      label: I agree to the following terms and conditions/:
       description: You agree to check all the resources above before opening a new issue.
       options:
         - label: No, I am not posting a question for technical assistance.
           required: true
         - label: Yes, I have confirmed this is not a duplicate issue.
+          required: true
+        - label: I agree to SparkFun's [terms of service](https://www.sparkfun.com/terms)
+          required: true
+        - label: I agree to SparkFun's [privacy policy](https://www.sparkfun.com/privacy)
           required: true
