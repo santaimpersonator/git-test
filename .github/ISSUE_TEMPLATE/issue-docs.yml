@@ -1,7 +1,7 @@
 name: Issue - Hookup Guide 📝 ✍
 description: Report any problems related to the documentation
 title: "Docs Error: "
-  description: Provide a concise title summarizing the problem
+  # description: Provide a concise title summarizing the problem
   # placeholder: eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**
 labels: ["Status: Issue Reported", "documentation"]
 body:
