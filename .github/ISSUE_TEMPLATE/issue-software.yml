@@ -1,5 +1,5 @@
 name: Issue - Software Functionality 💻
-description: Report a 🐛
+description: Report a bug 🐛
 title: "HW Operation: "
 labels: ["Status: Issue Reported", "hardware", "operation"]
 body:
