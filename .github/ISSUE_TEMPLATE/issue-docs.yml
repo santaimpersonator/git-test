@@ -14,9 +14,9 @@ body:
         * Provide a concise title summarizing the problem (eg. **Typo in Hawdware Overview section**)
         * Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
           * Select Files:
-            ![Select attachments from computer](https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp)
+            <img alt="Select attachments from computer" title="Click to enlarge" src="https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp" width="350">
           * Drag and Drop Files:
-            ![Attachments animated GIF](https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif)
+            <img alt="Attachments animated GIF" title="Click to enlarge" src="https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif" width="350">
         * When referencing information from a datasheet:
           * Specify, link, or attach the datasheet.
           * Provide the section that the information is in (eg. section 5.1.2) or quote the information exactly
