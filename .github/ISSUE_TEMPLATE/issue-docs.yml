@@ -74,7 +74,7 @@ body:
   - type: checkboxes
     id: confirmation
     attributes:
-      label: I agree to the following terms and conditions/:
+      label: I agree to the following terms and conditions
       description: You agree to check all the resources above before opening a new issue.
       options:
         - label: No, I am not posting a question for technical assistance.
