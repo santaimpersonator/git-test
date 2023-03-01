@@ -6,12 +6,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product.
-        * For some common troubleshooting tips, please head over to the [SparkFun Technical Assistance](https://www.sparkfun.com/technical_assistance) page.
-        * For questions about a product that is not working as expected, please post a topic in the [SparkFun Forums](https://forum.sparkfun.com/index.php).
+        Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product. Good examples of issues that should be submitted here are broken links, typos, or outdated information.
 
         Before reporting a new issue, please search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form: 
-        * Provide a concise title summarizing the problem (eg. **Typo in Hawdware Overview section**)
+        * Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**)
         * Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
           | Drag and Drop | Select to Attach |
           | :-----------: | :--------------: |
