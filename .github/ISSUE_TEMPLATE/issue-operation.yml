@@ -1,5 +1,5 @@
 name: Issue - Hardware Functionality ⛔ 🗯️ 🙅 🚨 🚫 🤷
-description: Report any problems with the hardware operation
+description: Report any problems with the hardware's operation
 title: "HW Operation: "
 labels: ["Status: Issue Reported", "hardware", "operation"]
 body:

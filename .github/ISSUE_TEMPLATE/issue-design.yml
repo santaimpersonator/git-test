@@ -1,5 +1,5 @@
 name: Issue - Hardware Design ⚙️ 🔌 🤖 🛠️ 🔧 🎛️ 🏚️ 💥
-description: Report any problems with the hardware design
+description: Report any problems with the hardware's design
 title: "Design: "
 labels: ["Status: Issue Reported", "hardware", "design"]
 body:
@@ -20,6 +20,7 @@ body:
         * Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
           * Select Files:
             ![Select attachments from computer](https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp)
+            <img alt="Select attachments from computer" src="https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp" width="300">
           * Drag and Drop Files:
             ![Attachments animated GIF](https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif)
         * When referencing information from a datasheet:
