@@ -1,5 +1,5 @@
-name: Issue report - yml
-description: Report any problems here
+name: Hardware Issue
+description: Report any problems with the hardware design or operation
 labels: ["Status: Awaiting triage"]
 body:
   - type: markdown
