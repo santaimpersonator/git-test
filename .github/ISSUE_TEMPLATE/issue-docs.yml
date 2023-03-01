@@ -9,8 +9,8 @@ body:
         Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product. Good examples of issues that should be submitted here are broken links, typos, or outdated information.
 
         Before reporting a new issue, please search the [list of existing documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form: 
-        * Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**)
-        * Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
+        - Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section*- or **Misspelled worlds as wosrld**)
+        - Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
           | Drag and Drop | Select to Attach |
           | :-----------: | :--------------: |
           | <img alt="Attachments animated GIF" title="Click to enlarge" src="https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif" width="350"> | <img alt="Select attachments from computer" title="Click to enlarge" src="https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp" width="350"> |
@@ -41,8 +41,8 @@ body:
       description: What is the location of the issue?
       placeholder: |
         Add a screenshot (see instructions above) or link the line in markdown file
-        * Make sure the relative location can be determined from the screenshot
-        * The link should have this format: <repo url>/docs/<directory>/<file name>.md?plain=1#L<line number>
+        - Make sure the relative location can be determined from the screenshot
+        - The link should have this format: <repo url>/docs/<directory>/<file name>.md?plain=1#L<line number>
     validations:
       required: false
   - type: textarea
@@ -59,9 +59,9 @@ body:
       description: Please include any documents and other information that you'd like to add
       placeholder: |
           When referencing information from a datasheet:
-          * Specify, link, or attach the datasheet.
-          * Provide the section that the information is in (eg. section 5.1.2)
-          * For longer sections quote the information exactly or provide a screenshot
+          - Specify, link, or attach the datasheet.
+          - Provide the section that the information is in (eg. section 5.1.2)
+          - For longer sections quote the information exactly or provide a screenshot
     validations:
       required: false
   - type: checkboxes
