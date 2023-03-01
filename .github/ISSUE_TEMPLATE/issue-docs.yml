@@ -5,12 +5,13 @@ labels: ["Status: Issue Reported", "documentation"]
 body:
   - type: markdown
     attributes:
-      value: Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**)
+      value: |
+        > Provide a concise title summarizing the problem (eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**)
   - type: checkboxes
     id: new_issue
     attributes:
-      label: I agree to check that this is a new issue
-      description: You check all the boxes to create a new issue.
+      label: This is a new issue
+      description: All the boxes must be checked to proceed
       options:
         - label: I am not posting a question or looking for [technical assistance](https://www.sparkfun.com/technical_assistance).
           required: true
@@ -20,10 +21,10 @@ body:
     attributes:
       value: |
         > Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product.
-          - Good examples of issues that should be submitted here are broken links, typos, or outdated information.
-          - If you are looking for technical assistance, please head over to our [technical assistance page](https://www.sparkfun.com/technical_assistance).
-          
-          Before reporting a new issue, please search the [list of documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+label%3Adocumentation+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form.
+        > - Good examples of issues that should be submitted here are broken links, typos, or outdated information.
+        > - If you are looking for technical assistance, please head over to our [technical assistance page](https://www.sparkfun.com/technical_assistance).
+        > 
+        > Before reporting a new issue, please search the [list of documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+label%3Adocumentation+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form.
   - type: dropdown
     id: issue_type
     attributes:
@@ -92,12 +93,8 @@ body:
     id: confirmation
     attributes:
       label: I agree to the following terms and conditions
-      description: You check all the boxes to create a new issue.
+      description: All the boxes must be checked to proceed
       options:
-        - label: I am not posting a question for technical assistance.
-          required: true
-        - label: I have confirmed this is not a duplicate issue.
-          required: true
         - label: I agree to SparkFun's [terms of service](https://www.sparkfun.com/terms)
           required: true
         - label: I agree to SparkFun's [privacy policy](https://www.sparkfun.com/privacy)
