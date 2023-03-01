@@ -1,4 +1,4 @@
-name: Error in the Hookup Guide 📝
+name: Hookup Guide 📝
 description: Report any problems related to the documentation
 title: "Docs Error: "
 labels: ["Status: Issue Reported", "documentation"]
@@ -50,7 +50,7 @@ body:
     id: location
     attributes:
       label: Location
-      description: What is the location of the issue?
+      description: Where is the location of this issue?
       placeholder: |
         Add a screenshot (see instructions below) or link the line in markdown file
         - Make sure the relative location can be determined from the screenshot
@@ -60,7 +60,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > ***How to add a screenshot:***
+        > ***How to attach an image:***
         > Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
         > | Drag and Drop | Select to Attach |
         > | :-----------: | :--------------: |
