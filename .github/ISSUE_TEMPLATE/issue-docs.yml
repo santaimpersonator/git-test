@@ -14,10 +14,6 @@ body:
           | Drag and Drop | Select to Attach |
           | :-----------: | :--------------: |
           | <img alt="Attachments animated GIF" title="Click to enlarge" src="https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif" width="350"> | <img alt="Select attachments from computer" title="Click to enlarge" src="https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp" width="350"> |
-        * When referencing information from a datasheet:
-          * Specify, link, or attach the datasheet.
-          * Provide the section that the information is in (eg. section 5.1.2)
-          * For longer sections quote the information exactly or provide a screenshot
   - type: dropdown
     id: issue_type
     attributes:
@@ -44,8 +40,9 @@ body:
       label: Location
       description: What is the location of the issue?
       placeholder: |
-        Link the line in markdown file (<repo url>/docs/<file name>.md?plain=1#L<line number>)
-        Add a screenshot (see instructions at the top) 
+        Add a screenshot (see instructions above) or link the line in markdown file
+        * Make sure the relative location can be determined from the screenshot
+        * The link should have this format: `<repo url>/docs/<directory>/<file name>.md?plain=1#L<line number>`
     validations:
       required: false
   - type: textarea
@@ -54,14 +51,19 @@ body:
       label: Suggested Correction
       description: How could this problem be corrected?
     validations:
-      required: true
+      required: false
   - type: textarea
     id: notes
     attributes:
       label: Additional Notes
-      description: Anything else you'd like to add?
+      description: Please include any documents and other information that you'd like to add
+      placeholder: |
+          When referencing information from a datasheet:
+          * Specify, link, or attach the datasheet.
+          * Provide the section that the information is in (eg. section 5.1.2)
+          * For longer sections quote the information exactly or provide a screenshot
     validations:
-      required: true
+      required: false
   - type: checkboxes
     id: confirmation
     attributes:
