@@ -60,7 +60,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        *How to add a screenshot:*
+        > *How to add a screenshot:*
         > Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
         > | Drag and Drop | Select to Attach |
         > | :-----------: | :--------------: |
