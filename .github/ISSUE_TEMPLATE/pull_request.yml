@@ -1,4 +1,4 @@
-name: Pull Request
+name: Submit Pull Request
 description: Suggest an idea for this project
 title: "Pull Request: "
 labels: ["Status: Awaiting triage", "PR"]
