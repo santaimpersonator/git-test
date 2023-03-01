@@ -52,7 +52,7 @@ body:
       label: Location
       description: What is the location of the issue?
       placeholder: |
-        Add a screenshot (see instructions above) or link the line in markdown file
+        Add a screenshot (see instructions below) or link the line in markdown file
         - Make sure the relative location can be determined from the screenshot
         - The link should have this format: <repo url>/docs/<directory>/<file name>.md?plain=1#L<line number>
     validations:
@@ -60,6 +60,7 @@ body:
   - type: markdown
     attributes:
       value: |
+        *How to add a screenshot:*
         > Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
         > | Drag and Drop | Select to Attach |
         > | :-----------: | :--------------: |
