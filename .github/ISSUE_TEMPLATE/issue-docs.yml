@@ -1,8 +1,6 @@
 name: Issue - Hookup Guide 📝 ✍
 description: Report any problems related to the documentation
 title: "Docs Error: "
-  # description: Provide a concise title summarizing the problem
-  # placeholder: eg. **Typo in Hardware Overview section** or **Misspelled worlds as wosrld**
 labels: ["Status: Issue Reported", "documentation"]
 body:
   - type: markdown
@@ -18,7 +16,8 @@ body:
           | <img alt="Attachments animated GIF" title="Click to enlarge" src="https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif" width="350"> | <img alt="Select attachments from computer" title="Click to enlarge" src="https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp" width="350"> |
         * When referencing information from a datasheet:
           * Specify, link, or attach the datasheet.
-          * Provide the section that the information is in (eg. section 5.1.2) or quote the information exactly
+          * Provide the section that the information is in (eg. section 5.1.2)
+          * For longer sections quote the information exactly or provide a screenshot
   - type: dropdown
     id: issue_type
     attributes:
