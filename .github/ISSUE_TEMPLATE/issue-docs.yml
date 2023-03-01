@@ -52,9 +52,9 @@ body:
       label: Suggested Correction
       description: How could this problem be corrected?
       placeholder: |
-        Feel free to skip, if the correction is obvious from the information above (eg. Title states: "Misspelled worlds as wosrld")
-        
-        For any politically incorrect statements, we apologize for our ignorance of the issue 😔😞😨😱🤦. Sometimes these can be tricky for the uninitiated 🤔, so please provide us with a suggestion to improve our wording. Thanks!
+        For any politically incorrect statements, we apologize for our ignorance of the issue 😔😞😨😱. Sometimes these can be tricky for the uninitiated 🤔, so please provide us with a suggestion to improve our wording. Thanks!
+
+        Feel free to skip this section, if the correction is obvious from the information above (eg. Title states: "Misspelled worlds as wosrld")
     validations:
       required: false
   - type: textarea
@@ -63,12 +63,12 @@ body:
       label: Additional Notes
       description: Please include any documents and other information that you'd like to add
       placeholder: |
+        For any politically incorrect statements, please provide us with some information or articles. We'd be happy to spread awareness to our colleagues at SparkFun 📨
+        
         When referencing information from a datasheet:
         - Specify, link, or attach the datasheet.
         - Provide the section that the information is in (eg. section 5.1.2)
         - For longer sections quote the information exactly or provide a screenshot
-
-        For any politically incorrect statements, please provide us with some information or articles. We'd be happy to spread awareness to our colleagues at SparkFun.
     validations:
       required: false
   - type: checkboxes
