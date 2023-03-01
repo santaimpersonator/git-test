@@ -1,5 +1,6 @@
-name: Pull Request
+name: Hardware Feature Request
 description: Suggest an idea for this project
+title: "[FR]: "
 labels: ["Status: Awaiting triage", "enhancement"]
 body:
   - type: markdown

@@ -1,5 +1,6 @@
 name: Hookup Guide Issue
 description: Report any problems related to the documentation
+title: "[Docs]: "
 labels: ["Status: Issue Reported", "documentation"]
 body:
   - type: markdown
