@@ -188,11 +188,11 @@ body:
       # label: I have checked existing issues, online documentation, and the troubleshooting guide
       # description: You agree to check all the resources above before opening a new issue.
       # options:
-      - label: No, I am not posting a question for technical assistance.
-        required: true
-      - label: Yes, I confirm I have checked the existing issues.
-        required: true
-      - label: Yes, I confirm I have checked the online documentation.
-        required: true
-      - label: Yes, I confirm I have checked the troubleshooting guide.
-        required: true
+        - label: No, I am not posting a question for technical assistance.
+          required: true
+        - label: Yes, I confirm I have checked the existing issues.
+          required: true
+        - label: Yes, I confirm I have checked the online documentation.
+          required: true
+        - label: Yes, I confirm I have checked the troubleshooting guide.
+          required: true
