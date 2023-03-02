@@ -1,0 +1,204 @@
+name: Software Functionality 💻
+description: Report a bug 🐛
+title: "Bug: "
+labels: ["Status: Issue Reported", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Provide a concise title summarizing the problem (eg. **Example <name> not working** or **int Var should be float**)
+  - type: checkboxes
+    id: new_issue
+    attributes:
+      label: This is a new issue
+      # description: All the boxes must be checked to proceed
+      options:
+        - label: I am not posting a question or looking for [technical assistance](https://www.sparkfun.com/technical_assistance).
+          required: true
+        - label: I have confirmed this is not a duplicate [issue](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+label%3Abug+).
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        > Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product.
+        > - Good examples of issues that should be submitted here are built-in example that doesn't work, general bugs in the code (eg. missing negative sign), or compatibility issues (eg. works with ESP32 Thing Plus, but not ESP32 RedBoard IoT).
+        > - If you are looking for technical assistance, please head over to our [technical assistance page](https://www.sparkfun.com/technical_assistance).
+        > 
+        > Before reporting a new issue, please search the [list of documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+label%3Abug+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form.
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Problem
+      description: What type of problem have you found?
+      options:
+        - Typo
+        - Bad Comment
+        - Example Not Working
+        - Compatibility Issue
+        - Incorrect Information
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: error
+    attributes:
+      label: Error
+      description: State the exact problem
+      placeholder: eg. Broken hyperlink (example.com) to Arduino library in Example 1
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Location
+      description: Where is the location of this issue?
+      placeholder: |
+        Add a screenshot (see instructions below) or link the line in markdown file
+        - Make sure the relative location can be determined from the screenshot
+        - The link should have this format: <repo url>/docs/<directory>/<file name>.md?plain=1#L<line number>
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        > ***How to attach an image:***
+        > Screenshots are extremely helpful and it is easy to [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files) into GitHub issues:
+        > | Drag and Drop | Select to Attach |
+        > | :-----------: | :--------------: |
+        > | <img alt="Attachments animated GIF" title="Click to enlarge" src="https://docs.github.com/assets/cb-726253/images/help/pull_requests/dragging_images.gif" width="350"> | <img alt="Select attachments from computer" title="Click to enlarge" src="https://docs.github.com/assets/cb-42604/mw-1000/images/help/pull_requests/select-bar.webp" width="350"> |
+  - type: input
+    id: board
+    attributes:
+      label: Dev. Board
+      description: On which Board does this issue occur?
+      placeholder: eg. ESP32 Dev Module, ESP32-S2, LilyGo TTGO LoRa32...
+    validations:
+      required: true
+  - type: textarea
+    id: dev_board
+    attributes:
+      label: Device Description
+      description: What development board or other hardware is the chip attached to?
+      placeholder: ex. DevKitC, a plain module on a breadboard, etc. If your hardware is custom or unusual, please attach a photo.
+    validations:
+       required: true
+  - type: textarea
+    id: other-hw
+    attributes:
+      label: Hardware Configuration
+      description: Describe your hardware setup
+      placeholder: ex. GPIO 18 & 19 are connected to I2C devices (w/ picture(s) of the setup attached).
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: On what OS does this issue occur?
+      placeholder: ex. macOS 12.1, Windows 11...
+    validations:
+      required: true
+  - type: input
+    id: ide
+    attributes:
+      label: IDE Name
+      description: What IDE are you using?
+      placeholder: eg. Arduino IDE, PlatformIO, Sloeber...
+    validations:
+      required: true
+  - type: input
+    id: library
+    attributes:
+      label: Library/Package
+      description: Which library (or package) and version are you using?
+      placeholder: eg. `[SparkFun BMA400 Arduino Library - v1.0.0](https://github.com/sparkfun/SparkFun_BMA400_Arduino_Library/releases/tag/v1.0.0)`
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe your problem here and the expected behavior
+      placeholder: ex. Can't connect/weird behavior/wrong function/missing parameter...
+    validations:
+      required: true
+  - type: textarea
+    id: sketch
+    attributes:
+      label: Sketch
+      description: Please provide a full minimal sketch/code which can be run to reproduce your issue
+      placeholder: ex. Related part of the code to replicate the issue
+      render: cpp
+    validations:
+      required: true
+  - type: textarea
+    id: debug
+    attributes:
+      label: Debug Message
+      description: Please provide a debug message or error message. If you have a Guru Meditation Error or Backtrace, please decode it with [ExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecoder)
+      placeholder: Enable Core debug level - Debug on tools menu of Arduino IDE, then put the serial output here.
+      render: plain
+    validations:
+      required: true      
+  - type: textarea
+    id: other-remarks
+    attributes:
+      label: Other Steps to Reproduce 
+      description: Is there any other information you can think of which will help us reproduce this problem? Any additional info can be added as well.
+      placeholder: ex. I also tried on another OS, HW...it works correctly on that setup.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: I have checked existing issues, online documentation, and the troubleshooting guide
+      description: You agree to check all the resources above before opening a new issue.
+      options:
+      - label: No, I am not posting a question for technical assistance.
+        required: true
+      - label: Yes, I confirm I have checked the existing issues.
+        required: true
+      - label: Yes, I confirm I have checked the online documentation.
+        required: true
+      - label: Yes, I confirm I have checked the troubleshooting guide.
+        required: true
+
+
+
+
+
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested Correction
+      description: How could this problem be corrected?
+      placeholder: |
+        Feel free to skip this section, if the correction is obvious from the information above (eg. Title states: "Misspelled worlds as wosrld")
+
+        For any politically incorrect statements, we apologize for our ignorance of the issue 😔😞😨. Sometimes these can be tricky for the uninitiated 🤔, so please provide us with a suggestion to improve our wording. Thanks!
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Please include any documents and other information that you'd like to add
+      placeholder: |
+        When referencing information from a datasheet:
+        - Specify, link, or attach the datasheet.
+        - Provide the section that the information is in (eg. section 5.1.2)
+        - For longer sections quote the information exactly or provide a screenshot
+
+        For any politically incorrect statements, please provide us with some information or articles. We'd be happy to spread awareness to our colleagues, here at SparkFun 📨
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: I agree to the following terms and conditions
+      # description: All the boxes must be checked to proceed
+      options:
+        - label: I agree to SparkFun's [terms of service](https://www.sparkfun.com/terms)
+          required: true
+        - label: I agree to SparkFun's [privacy policy](https://www.sparkfun.com/privacy)
+          required: true
