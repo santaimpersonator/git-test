@@ -28,7 +28,7 @@ body:
   - type: dropdown
     id: issue_type
     attributes:
-      label: Problem
+      label: Issue Type
       description: What type of problem have you found?
       options:
         - Typo
@@ -41,9 +41,9 @@ body:
       required: true
 
   - type: input
-    id: error
+    id: statment
     attributes:
-      label: Error
+      label: Problem Statement
       description: State the exact problem
       placeholder: eg. Broken hyperlink (example.com) to Arduino library in Example 1
     validations:
