@@ -147,20 +147,9 @@ body:
       label: Other Steps to Reproduce 
       description: Is there any other information you can think of which will help us reproduce this problem? Any additional info can be added as well.
       placeholder: ex. I also tried on another OS, HW...it works correctly on that setup.
-  - type: checkboxes
-    id: confirmation
-    attributes:
-      label: I have checked existing issues, online documentation, and the troubleshooting guide
-      description: You agree to check all the resources above before opening a new issue.
-      options:
-      - label: No, I am not posting a question for technical assistance.
-        required: true
-      - label: Yes, I confirm I have checked the existing issues.
-        required: true
-      - label: Yes, I confirm I have checked the online documentation.
-        required: true
-      - label: Yes, I confirm I have checked the troubleshooting guide.
-        required: true
+
+
+
   - type: textarea
     id: correction
     attributes:
@@ -196,3 +185,14 @@ body:
           required: true
         - label: I agree to SparkFun's [privacy policy](https://www.sparkfun.com/privacy)
           required: true
+      # label: I have checked existing issues, online documentation, and the troubleshooting guide
+      # description: You agree to check all the resources above before opening a new issue.
+      # options:
+      - label: No, I am not posting a question for technical assistance.
+        required: true
+      - label: Yes, I confirm I have checked the existing issues.
+        required: true
+      - label: Yes, I confirm I have checked the online documentation.
+        required: true
+      - label: Yes, I confirm I have checked the troubleshooting guide.
+        required: true
