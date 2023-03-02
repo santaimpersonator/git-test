@@ -1,7 +1,7 @@
 name: Software Functionality 💻
 description: Report a bug 🐛
 title: "Bug: "
-labels: ["Status: Issue Reported", "bug"]
+labels: ["Status: Issue Reported", "function"]
 body:
   - type: markdown
     attributes:
@@ -161,12 +161,6 @@ body:
         required: true
       - label: Yes, I confirm I have checked the troubleshooting guide.
         required: true
-
-
-
-
-
-
   - type: textarea
     id: correction
     attributes:

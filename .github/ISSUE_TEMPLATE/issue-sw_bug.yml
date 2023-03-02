@@ -161,12 +161,6 @@ body:
         required: true
       - label: Yes, I confirm I have checked the troubleshooting guide.
         required: true
-
-
-
-
-
-
   - type: textarea
     id: correction
     attributes:
