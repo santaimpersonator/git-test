@@ -1,4 +1,4 @@
-name: Issue - Hardware Functionality ⛔ 🙅 🚨 🚫 🤷 ⚠️
+name: "Issue - Hardware Functionality ⛔ 🙅 🚨 🚫 🤷 ⚠️"
 description: Report any problems with an expected hardware behavior
 title: "Operation: "
 labels: ["Status: Issue Reported", "hardware", "operation"]
