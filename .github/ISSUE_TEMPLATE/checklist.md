@@ -1,4 +1,5 @@
 Here are some simple steps to verify that you haven't missed an instruction, which could solve your issue:
+
 - Please double-check the [hookup guide](https://sparkfun.github.io/git-test) and verify that you have completed your setup correctly.
     - Please test your board with one of the included examples to verify that the board is operating with its basic functionality.
     - Verify that you are using the latest software development environment and library/package release *(unless specified otherwise)*.

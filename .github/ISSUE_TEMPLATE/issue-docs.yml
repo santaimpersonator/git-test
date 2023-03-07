@@ -39,7 +39,7 @@ body:
     validations:
       required: true
   - type: input
-    id: statment
+    id: statement
     attributes:
       label: Problem Statement
       description: State the exact problem
@@ -52,7 +52,7 @@ body:
       label: Location
       description: Where is the location of this issue?
       placeholder: |
-        Add a screenshot (see instructions below) or link the line in markdown file
+        Add a screenshot (see instructions below) or link the line in the markdown file
         - Make sure the relative location can be determined from the screenshot
         - The link should have this format: <repo url>/docs/<directory>/<file name>.md?plain=1#L<line number>
     validations:

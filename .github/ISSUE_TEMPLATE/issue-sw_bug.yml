@@ -21,7 +21,7 @@ body:
     attributes:
       value: |
         > Please make sure an issue is being reported; this is not an appropriate channel for questions or assistance on a product.
-        > - Good examples of issues that should be submitted here are built-in example that doesn't work, general bugs in the code (eg. missing negative sign), or compatibility issues (eg. works with ESP32 Thing Plus, but not ESP32 RedBoard IoT).
+        > - Good examples of issues that should be submitted here are a built-in example that doesn't work, general bugs in the code (eg. missing negative sign), or compatibility issues (eg. works with ESP32 Thing Plus, but not ESP32 RedBoard IoT).
         > - If you are looking for technical assistance, please head over to our [technical assistance page](https://www.sparkfun.com/technical_assistance).
         > 
         > Before reporting a new issue, please search the [list of documentation issues](https://github.com/sparkfun/git-test/issues?q=is%3Aissue+label%3Abug+) to avoid creating duplicates. Otherwise, if you spotted an unlisted error in our documentation, please continue filling out this form.
@@ -41,7 +41,7 @@ body:
       required: true
 
   - type: input
-    id: statment
+    id: statement
     attributes:
       label: Problem Statement
       description: State the exact problem
@@ -54,7 +54,7 @@ body:
       label: Location
       description: Where is the location of this issue?
       placeholder: |
-        Add a screenshot (see instructions below) or link the line in markdown file
+        Add a screenshot (see instructions below) or link the line in the markdown file
         - Make sure the relative location can be determined from the screenshot
         - The link should have this format: <repo url>/docs/<directory>/<file name>.md?plain=1#L<line number>
     validations:
@@ -128,7 +128,7 @@ body:
     attributes:
       label: Sketch
       description: Please provide a full minimal sketch/code which can be run to reproduce your issue
-      placeholder: ex. Related part of the code to replicate the issue
+      placeholder: ex. The related part of the code to replicate the issue
       render: cpp
     validations:
       required: true
@@ -137,7 +137,7 @@ body:
     attributes:
       label: Debug Message
       description: Please provide a debug message or error message. If you have a Guru Meditation Error or Backtrace, please decode it with [ExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecoder)
-      placeholder: Enable Core debug level - Debug on tools menu of Arduino IDE, then put the serial output here.
+      placeholder: Enable Core debug level - Debug on the tools menu of Arduino IDE, then put the serial output here.
       render: plain
     validations:
       required: true      
@@ -146,7 +146,7 @@ body:
     attributes:
       label: Other Steps to Reproduce 
       description: Is there any other information you can think of which will help us reproduce this problem? Any additional info can be added as well.
-      placeholder: ex. I also tried on another OS, HW...it works correctly on that setup.
+      placeholder: ex. I also tried it on another OS, HW...it works correctly on that setup.
 
 
 

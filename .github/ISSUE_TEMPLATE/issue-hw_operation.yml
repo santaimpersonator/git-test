@@ -1,4 +1,4 @@
-name: Hardware Functionality ⚠️ ⛔ 🙅 🚫 🤷 🚧
+name: Hardware Functionality ⚠️ ⛔ 🙅 🚫 🤷 🚧 🤖💥, 🤖🪛, 🤖🛠️
 description: Report any problems with an expected hardware behavior
 title: "Operation: "
 labels: ["Status: Issue Reported", "hardware", "operation"]
@@ -40,7 +40,7 @@ body:
     attributes:
       value: |
         > For most issues, we will ask that a minimal level of testing and troubleshooting with the board be attempted.
-        > - Performing a basic test using a hardware setup and a software example that are known to work will help to establish a baseline (if your board is working or not).
+        > - Performing a basic test using a hardware setup with a software example that is known to work will help to establish a baseline (if your board is working or not).
         > - Good examples of issues that should be troubleshot:
         >    - 
         >    - 
@@ -62,7 +62,7 @@ body:
     validations:
       required: true
   - type: input
-    id: statment
+    id: statement
     attributes:
       label: Problem Statement
       description: State the exact problem
@@ -147,7 +147,7 @@ body:
     attributes:
       label: Sketch
       description: Please provide a full minimal sketch/code which can be run to reproduce your issue
-      placeholder: ex. Related part of the code to replicate the issue
+      placeholder: ex. The related part of the code to replicate the issue
       render: cpp
     validations:
       required: true
@@ -156,7 +156,7 @@ body:
     attributes:
       label: Debug Message
       description: Please provide a debug message or error message. If you have a Guru Meditation Error or Backtrace, please decode it with [ExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecoder)
-      placeholder: Enable Core debug level - Debug on tools menu of Arduino IDE, then put the serial output here.
+      placeholder: Enable Core debug level - Debug on the tools menu of Arduino IDE, then put the serial output here.
       render: plain
     validations:
       required: true      
@@ -165,7 +165,7 @@ body:
     attributes:
       label: Other Steps to Reproduce 
       description: Is there any other information you can think of which will help us reproduce this problem? Any additional info can be added as well.
-      placeholder: ex. I also tried on another OS, HW...it works correctly on that setup.
+      placeholder: ex. I also tried it on another OS, HW...it works correctly on that setup.
   - type: checkboxes
     id: confirmation
     attributes:
