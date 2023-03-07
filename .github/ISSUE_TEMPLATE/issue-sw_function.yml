@@ -1,5 +1,5 @@
-name: Software Functionality 💻⚠️ ... 🚧🚨
-description: Report a bug 🐛
+name: Software Error 🚧💻🚨 ⛔ 🙅 🚫 
+description: Report a dependency, build, or compile error
 title: "Bug: "
 labels: ["Status: Issue Reported", "function"]
 body:
