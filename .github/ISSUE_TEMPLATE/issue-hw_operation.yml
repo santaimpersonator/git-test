@@ -1,7 +1,5 @@
-name: Hardware Functionality 🤖💥 ... ⚠️ ⛔ 🙅 🚫 🤷 🚧 🤖🪛, 🤖🛠️
-description: |
-  Report any problems with an expected hardware behavior
-  Other Icons: ⚠️ ⛔ 🙅 🚫 🤷 🚧 🤖🪛, 🤖🛠️
+name: Hardware Functionality 🤖💥
+description: Report any problems with an expected hardware behavior (⚠️ ⛔ 🙅 🚫 🤷 🚧 🤖🪛, 🤖🛠️)
 title: "Operation: "
 labels: ["Status: Issue Reported", "hardware", "operation"]
 body:

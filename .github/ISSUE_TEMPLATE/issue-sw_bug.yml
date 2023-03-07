@@ -1,5 +1,5 @@
-name: Software Bug 💻🗯️, 💻⚠️
-description: Report a bug 🐛
+name: Software Bug 💻⚠️
+description: Report a bug 🐛 (💻🗯️)
 title: "Bug: "
 labels: ["Status: Issue Reported", "bug"]
 body:
