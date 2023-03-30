@@ -1,7 +1,7 @@
-name: Software Bug 💻⚠️
-description: Report a bug 🐛 (💻🗯️)
+name: Software - Bug in Examples 💻⚠️
+description: Report a bug 🐛 (specific to the example code)
 title: "Bug: "
-labels: ["Status: Issue Reported", "bug"]
+labels: ["Status: Issue Reported", "bug", "example"]
 body:
   - type: markdown
     attributes:
