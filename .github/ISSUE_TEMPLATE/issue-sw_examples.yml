@@ -1,4 +1,4 @@
-name: Software - Bug in Examples 💻⚠️
+name: Software - Bug in Example(s) 💻⚠️
 description: Report a bug 🐛 (specific to the example code)
 title: "Bug: "
 labels: ["Status: Issue Reported", "bug", "example"]

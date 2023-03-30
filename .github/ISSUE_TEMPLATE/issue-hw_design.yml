@@ -1,5 +1,5 @@
 name: Hardware Design 🏭
-description: Report any problems with the hardware's design (⚙️ 🤖📐, 🤖🪛, 🤖🛠️, 🔌 🛠️ 🔧 🎛️ 🏚️ 📐 🪛)
+description: Report any problems with the hardware's design
 title: "Design: "
 labels: ["Status: Issue Reported", "hardware", "design"]
 body:

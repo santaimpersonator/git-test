@@ -1,5 +1,5 @@
 name: Software - Bug in Library 💻⛔
-description: Report a dependency, build, or compile error (specific to the library operation) (🚨 🚧💻 🙅 🚫)
+description: Report a dependency, build, or compile error (specific to the library operation)
 title: "Bug: "
 labels: ["Status: Issue Reported", "bug", "library"]
 body:
